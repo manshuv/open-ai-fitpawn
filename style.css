@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+  padding: 2em;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+label,
+input,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+input {
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+button {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #222;
+}
